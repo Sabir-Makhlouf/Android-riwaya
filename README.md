@@ -1,4 +1,6 @@
 # تطبيق أندرويد لرواية مع إمكانية قراءة الرواية وتغيير حجم الخط
+a novel app for reading With the possibility of changing the font
+ 
 
 # Java and Android Studio
 # read
