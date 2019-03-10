@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sabirmakhlouf.riwayat.riwayat">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".txt1" />
+        <activity android:name=".txt2" />
+        <activity android:name=".txt3" />
+        <activity android:name=".txt4" />
+        <activity android:name=".txt5" />
+        <activity android:name=".anwan1" />
+        <activity android:name=".anwan2" />
+        <activity android:name=".txt2_1" />
+        <activity android:name=".txt2_2" />
+        <activity android:name=".txt2_3" />
+        <activity android:name=".txt2_4" />
+        <activity android:name=".txt2_5" />
+        <activity android:name=".anwan3" />
+        <activity android:name=".txt3_1" />
+        <activity android:name=".txt3_2" />
+        <activity android:name=".txt3_3" />
+        <activity android:name=".txt3_4" />
+        <activity android:name=".txt3_5" />
+        <activity android:name=".anwan4" />
+        <activity android:name=".txt4_1" />
+        <activity android:name=".txt4_2" />
+        <activity android:name=".txt4_3" />
+        <activity android:name=".txt4_4" />
+        <activity android:name=".anwan5" />
+        <activity android:name=".txt5_1" />
+        <activity android:name=".txt5_2" />
+        <activity android:name=".txt5_3" />
+        <activity android:name=".Main3Activity"></activity>
+    </application>
+
+</manifest>

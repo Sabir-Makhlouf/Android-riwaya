@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "716496902307",
+    "firebase_url": "https://riwayat-9a0e1.firebaseio.com",
+    "project_id": "riwayat-9a0e1",
+    "storage_bucket": "riwayat-9a0e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716496902307:android:54e4515be992168c",
+        "android_client_info": {
+          "package_name": "com.sabirmakhlouf.riwayat.riwayat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716496902307-6nt34h8vb96t4srptll690n56mop0dd3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sabirmakhlouf.riwayat.riwayat",
+            "certificate_hash": "b4777727f19e133f79db9846fc74ffcec1d48c6e"
+          }
+        },
+        {
+          "client_id": "716496902307-9cpjetbt71nksp4sg7qve3o8blk3ts3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGGMnyDfe0MfZDCg9fARTU8wtm0258d8c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716496902307-9cpjetbt71nksp4sg7qve3o8blk3ts3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

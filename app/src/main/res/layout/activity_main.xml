@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sabirmakhlouf.riwayat.riwayat.MainActivity"
+    android:background="@drawable/eiiw">
+
+
+    <Button
+        android:text="قراءة الرواية"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:onClick="buttonm1"
+        android:id="@+id/buttonm1"
+        android:background="@color/colorPrimary"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="تطبيقات أخرى"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonm2"
+        android:id="@+id/buttonm2"
+        android:background="@color/colorPrimary"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/buttonm1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="معلومات"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="button4"
+        android:id="@+id/buttonm"
+        android:background="@color/colorPrimary"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/buttonm2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="الخروج"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonm3"
+        android:id="@+id/buttonm3"
+        android:background="@color/colorPrimary"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/buttonm"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Developed By : Sabir Makhlouf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:id="@+id/textView2"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

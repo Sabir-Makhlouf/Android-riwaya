@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sabirmakhlouf.riwayat.riwayat.Main2Activity"
+    android:background="?attr/colorButtonNormal">
+
+    <TextView
+        android:text="1.أمرأة وحيدة"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/textView01"
+        android:textStyle="normal|bold"
+        android:textSize="36sp"
+        android:onClick="txt1"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:text="2.غريب يطرق الباب"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView02"
+        android:textStyle="normal|bold"
+        android:textSize="36sp"
+        android:onClick="txt2"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:layout_below="@+id/textView01"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:text="4.حافة الهاوية"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView04"
+        android:layout_marginTop="25dp"
+        android:textSize="36sp"
+        android:onClick="txt3"
+
+        android:layout_below="@+id/textView03"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="5.الصباح يجلب الغيوم"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView05"
+        android:textStyle="normal|bold"
+        android:textSize="36sp"
+        android:onClick="txt4"
+
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:layout_below="@+id/textView04"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:text="3.الأفق المهجور"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView03"
+        android:textStyle="normal|bold"
+        android:textSize="36sp"
+        android:onClick="txt5"
+
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:layout_below="@+id/textView02"
+        android:layout_marginTop="25dp" />
+</RelativeLayout>

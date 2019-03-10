@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_anwan1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sabirmakhlouf.riwayat.riwayat.anwan1"
+    android:background="?attr/colorButtonNormal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="يوم الجمعة"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:id="@+id/t1"
+                android:textStyle="normal|bold"
+                android:textSize="36sp"
+                android:onClick="txt1"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:text="وما هو عيب لايل؟"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/t2"
+                android:textStyle="normal|bold"
+                android:textSize="36sp"
+                android:onClick="txt2"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:layout_below="@+id/t1"
+                android:layout_marginTop="25dp" />
+
+            <TextView
+                android:text="لم تسمعه جيردا"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/t4"
+                android:layout_marginTop="25dp"
+                android:textSize="36sp"
+                android:onClick="txt3"
+
+                android:layout_below="@+id/t3"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="لنتناول الطعام الآن"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/t5"
+                android:textStyle="normal|bold"
+                android:textSize="36sp"
+                android:onClick="txt4"
+
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:layout_below="@+id/t4"
+                android:layout_marginTop="25dp" />
+
+            <TextView
+                android:text="بناية كرافتون"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/t3"
+                android:textStyle="normal|bold"
+                android:textSize="36sp"
+                android:onClick="txt5"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:layout_below="@+id/t2"
+                android:layout_marginTop="25dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
